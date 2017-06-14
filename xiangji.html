@@ -15,7 +15,7 @@ var video = document.getElementById('video')
 var canvas = document.getElementById('canvas')
 var context = canvas.getContext('2d')
 var errocb = function () {
-    console.log('sth wrong!')
+    alert('sth wrong!')
 }
 if (navigator.getUserMedia) { // 标准的API
     navigator.getUserMedia({ 'video': true }, function (stream) {
